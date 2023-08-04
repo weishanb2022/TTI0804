@@ -1,12 +1,18 @@
-<div>
-    <div>
-        <label for="pointLayerSelect">Target layer：</label>
-        <select id="pointLayerSelect"></select>
-    </div>
-    <div>
-        <label for="polygonLayerSelect">Ground truth layer：</label>
-        <select id="polygonLayerSelect"></select>
-    </div>
-    <button id="calculateButton">Validation</button>
-    <div id="result"></div>
+<div class="jimu-widget-customwidget">
+  <input type="button" id="targetLayerButton" value="Select target layer">
+  <select id="targetLayerSelect" style="display:none;"></select>
+  <input type="button" id="targetFieldButton" value="Select target field" style="display:none;">
+  <select id="targetFieldSelect" style="display:none;"></select>
+
+  <input type="button" id="groundTruthLayerButton" value="Select ground truth layer">
+  <select id="groundTruthLayerSelect" style="display:none;"></select>
+  <input type="button" id="groundTruthFieldButton" value="Select ground truth field" style="display:none;">
+  <select id="groundTruthFieldSelect" style="display:none;"></select>
+
+  <input type="button" id="validationButton" value="Validation">
+
+  <input type="button" id="addToLayerButton" value="Add to Layer" style="display:none;">
+  
+  <div id="resultDiv"></div>
+  <div id="layerDiv"></div>
 </div>
