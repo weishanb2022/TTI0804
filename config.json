@@ -15,7 +15,7 @@
       "mainBackgroundColor": null
     }
   },
-  "portalUrl": "https://tamu.maps.arcgis.com",
+  "portalUrl": "www.arcgis.com",
   "appId": "",
   "authorizedCrossOriginDomains": [],
   "title": "0601_Mapilary_test1",
@@ -341,7 +341,7 @@
     "itemId": "0dc7a33c306a4a2086deb4e3744bfab9",
     "mapOptions": {},
     "id": "map",
-    "portalUrl": "https://tamu.maps.arcgis.com",
+    "portalUrl": "www.arcgis.com",
     "mapRefreshInterval": {
       "useWebMapRefreshInterval": true
     }
